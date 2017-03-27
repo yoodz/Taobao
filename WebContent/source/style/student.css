@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0; 
+}
+
+.wrap {
+  height: 100%;
+  width: 100%;
+}
+
+.main-top {
+  height: 60%;
+  background-color: #1ab496;
+}
+
+.button-style {
+  width: 92px;
+  height: 32px;
+}
