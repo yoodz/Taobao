@@ -1,3 +1,7 @@
+html {
+  font-family: 'Arial', 'Microsoft YaHei';
+}
+
 body {
   margin: 0;
   padding: 0; 
@@ -5,7 +9,12 @@ body {
 
 .wrap {
   height: 100%;
-  width: 100%;
+  width: 95%;
+  background-color: #ededed;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 4px;
 }
 
 .main-top {
@@ -16,4 +25,25 @@ body {
 .button-style {
   width: 92px;
   height: 32px;
+}
+
+.login-window {
+  height: 60px;
+  text-align: center;
+  padding-top: 20px;
+  background-color: #222;
+  color: white;
+  font-size: 28px;
+}
+
+.right {
+  min-height: 400px;
+  width: 49%;
+  float: right;
+}
+
+.left {
+  min-height: 400px;
+  width: 50%;
+  float: left;
 }

@@ -1,14 +1,21 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Arial', 'Microsoft YaHei';
   font-size: 12px;
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 
 .wrap {
   height: 100%;
   width: 100%;
-  position: absolute;
 }
 
 .main-top {
@@ -23,7 +30,7 @@ body {
   height: 320px;
   background: white;
   border-radius: 4px;
-  top: 18%;
+  bottom: -26%;
   right: 10%;
   box-shadow: 4px 5px 1px rgba(128, 128, 128, 0.31);
 }
