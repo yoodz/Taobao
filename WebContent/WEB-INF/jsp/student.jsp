@@ -17,18 +17,31 @@
     <div class="login-window">淘宝信息采集</div>
     <div class="wrap">
       <div class="left">
-        <div>
+        <div class="second-title">基础参数查询</div>
+        <div class="basic-div">
           <span>收入比率：</span>
-          <input type="text" / > ~
-          <input type="text" / >
+          <input class="basic-input" type="text" / > ~
+          <input class="basic-input" type="text" / >
         </div>
-        <div>
+        <div class="basic-div">
           <span>价格区间：</span>
-          <input type="text" / > ~
-          <input type="text" / >
+          <input class="basic-input" type="text" / > ~
+          <input class="basic-input" type="text" / >
+        </div>
+        <div class="basic-div">月销量在 <input class="basic-input" type="text" />笔以上</div>
+        <div class="basic-div">每页采集数量： <input class="basic-input" type="text" /></div>
+      </div>
+      <div class="right">
+        <div class="table-title">
+          <span class="every-tab">宝贝Id</span>
+          <span class="every-tab">宝贝标题</span>
+          <span class="every-tab">买家店铺名称</span>
+          <span class="every-tab">宝贝原价</span>
+          <span class="every-tab">宝贝现价</span>
+          <span class="every-tab">通用佣金</span>
+          <span class="every-tab">高佣金</span>
         </div>
       </div>
-      <div class="right">right</div>
     </div>
 
 
